@@ -16,7 +16,7 @@ public class Login {
     @Before
     public void openSession(){
         System.out.println("The precondition executed successfully ");
-        System.setProperty("webdriver.chrome.driver", "/Users/tnaidu/Softwares/chromedriver"); // download, install and set path (provide permission on security mac level)
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver"); // download, install and set path (provide permission on security mac level)
         driver = new ChromeDriver();
     }
 
